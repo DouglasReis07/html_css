@@ -15,13 +15,19 @@
                 <legend>Meu Formulario</legend>
 
                 <P>
-                    Insira seu nome: <input type="text">
+                    Insira seu nome: <input type="text" required placeholder="Digite seu nome completo" readonly>
                 </P>
                 <P>
-                    Insira seu email: <input type="email">
+                    Insira seu email: <input type="email" required ="required" placeholder="Digite um email valido" disabled>
                 </P>
+
                 <P>
-                    Insira sua senha: <input type="password">
+                    Insira seu CPF: <input type="text" required ="required" placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                </P>
+
+                              
+                <P>
+                    Insira sua senha: <input type="password" required placeholder="Digite um senha segura">
                 </P>
                 <P>
                     Insira o sexo: <br>
@@ -30,7 +36,7 @@
                 </P>
                 <P>
                     Insira a sua tecnologia preferida: <br>
-                    <input type="checkbox"> HTML5 <br>
+                    <input type="checkbox" checked> HTML5 <br>
                     <input type="checkbox"> CSS <br>
                     <input type="checkbox"> JavaScript <br>
                     <input type="checkbox"> PhP <br>
