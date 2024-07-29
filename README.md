@@ -1,2 +1,2 @@
 # html_css
- Estudos Gustavo Guanabara
+ Estudos de HTML e CSS.
